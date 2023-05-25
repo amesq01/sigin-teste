@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C1C1C1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  height: 90%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+
+}
+
+.container .content .right {
+  padding: 24px;
+  width: 40%;
+}
+
+.container .content .right .icon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 50px;
+}
+
+form .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+input {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  background-color: #E5E3E3;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.container .content .right small {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  margin-top: -12px;
+  font-size: 12px;
+  color: blue;
+
+
+}
+
+.container .content .right button {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+  background-color: blue;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container .content .right p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: blue;
+}
